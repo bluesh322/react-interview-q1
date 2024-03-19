@@ -1,0 +1,27 @@
+#namelocation {
+    display: flexbox;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75%;
+  }
+  
+  #namelocation td, #namelocation th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #namelocation tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #namelocation tr:hover {background-color: #ddd;}
+  
+  #namelocation th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #3a86e4;
+    color: white;
+  }
+
+.table {
+    margin-left: 20%;
+}
